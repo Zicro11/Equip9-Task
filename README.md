@@ -1,8 +1,9 @@
 Hello Team,
-My name is Rohit Umesh Nair
-I’m assigned a task as per your requirement for Cloud Engineer position at Equip9 Pvt. Ltd. 
 
-Task Details :-
+My name is Rohit Umesh Nair
+
+Task Details:-
+
 Part 1: HTTP Service
 Develop an HTTP service in any programming language of your choice. The service should expose the following endpoint: Endpoint: GET http://IP:PORT/list-bucket-content/
 ● Functionality:
@@ -61,9 +62,7 @@ S3 Bucket Objects:
 ________________________________________
 
 
-
-
-
+SECOND TASK 
 
 32.	Now its time to complete 2nd task.
 33.	For this task create folder 
