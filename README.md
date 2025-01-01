@@ -1,4 +1,4 @@
-Hello Team,
+Hello Equip9 Team,
 
 My name is Rohit Umesh Nair
 
@@ -62,35 +62,38 @@ S3 Bucket Objects:
 ________________________________________
 
 
-SECOND TASK 
+SECOND TASK: Terraform Deployment
 
-32.	Now its time to complete 2nd task.
-33.	For this task create folder 
-34.	In this folder add your terraform files main.tf 
-35.	Now first open git bash and generate ssh public key (developer-key) cy using ssh-keygen command.
-36.	After that copy developer-key and developer-key.pub and in 2nd-Task folder.
-37.	After that for aws configuration use aws configure command in the  
-38.	After that create files like ec2_userdata.sh, main.tf, output.tf and variable.tf.
-39.	So, in variables.tf file define all variables.
-40.	After that in main.tf file create security group in this open 5000 port on both inbound and outbound rule.
-41.	After that write a terraform code to create ec2 instance in this provide path of file ec2_userdata.sh for user_data keyword which you was declare in aws_instance.
-42.	After that in ec2_userdata.sh file write all linux command and shell script for installing packages in ec2-instance like python3, boto3, flask, etc.
-43.	After successfully written terraform and python code . Run the terraform commands to deploy virtual machine.
-44.	Terraform command already mentioned in first task copy it.
-45.	When successfully deploying VM it gives you public ip address.
-Terraform-code 
-Main.tf
- ![image](https://github.com/user-attachments/assets/ac8455cd-26c0-4658-89bc-ef02a61f98db)
+Write a Terraform layout to provision AWS infrastructure and deploy the HTTP service
+created in Part 1.
 
- 	Variables.tf
- ![image](https://github.com/user-attachments/assets/fe31d12e-81c1-4e16-a510-1700e2b3b81c)
-	 
- 	HTTP-server instance
-![image](https://github.com/user-attachments/assets/b38049b5-bb4d-43d2-8b7e-48bddf16710b)
+1.	Now it's time to complete 2nd task.
+2.	For this task create a folder 
+3.	In this folder add your terraform files main.tf 
+4.	Now first open git bash and generate the ssh public key (developer-key) cy using the ssh-keygen command.
+5.	After that copy developer-key and developer-key.pub in the 2nd-Task folder.
+6.	After that for aws configuration use the aws configure command in the  
+7.	After that create files like ec2_userdata.sh, main.tf, output.tf, and variable.tf.
+8.	So, in variables.tf file defines all variables.
+9.	After that in main.tf file creates a security group in this open 5000 port on both inbound and outbound rule.
+10.	After that write a terraform code to create ec2 instance in this provide path of file ec2_userdata.sh for user_data keyword which you was declare in aws_instance.
+11.	After that in ec2_userdata.sh file write all linux command and shell script for installing packages in ec2-instance like python3, boto3, flask, etc.
+12.	After successfully written terraform and python code . Run the terraform commands to deploy virtual machine.
+13.	Terraform command already mentioned in first task copy it.
+14.	When successfully deploying VM it gives you public ip address.
+15.	Terraform-code 
+16.	Main.tf
+17.	![image](https://github.com/user-attachments/assets/ac8455cd-26c0-4658-89bc-ef02a61f98db)
 
- 
-46.	After that copy this ip address and paste it with application port number on browser.
-47.	After that it will return similar output of first task in jsion format.
+a.	Variables.tf
+18.	![image](https://github.com/user-attachments/assets/fe31d12e-81c1-4e16-a510-1700e2b3b81c)
+
+a.	HTTP-server instance
+19.	![image](https://github.com/user-attachments/assets/b38049b5-bb4d-43d2-8b7e-48bddf16710b)
+
+
+20.	After that copy this ip address and paste it with application port number on browser.
+21.	After that it will return similar output of first task in jsion format.
 
 
 
@@ -101,7 +104,7 @@ Ec2-ip-output
 ________________________________________
 
 Video demonstration of the Task
+
+DRIVE LINK:
 https://drive.google.com/drive/folders/1DRtsatgd7yvprQuY9HVtj16C-hPwphia?usp=drive_link
-The task is completed successfully.
-Thanks…..
 ________________________________________
